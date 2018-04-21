@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/smuiznieks/metroparks#readme",
   "dependencies": {
-    "exif-js": "^2.3.0"
+    "exif-js": "^2.3.0",
+    "exif-reader": "^1.0.2"
   }
 }
