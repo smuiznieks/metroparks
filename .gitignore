@@ -10,7 +10,9 @@ yarn-error.log*
 #Wireframe files
 *.screen
 *.proj
-.autoRecover/
+*.autoRecover/
+
+*.history
 
 # Runtime data
 pids
