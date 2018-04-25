@@ -32,7 +32,7 @@ function createMarker(place) {
     google.maps.event.addListener(marker, 'click', function() {
 		console.log(place);
         if (place.formatted_address) {
-            infowindow.setContent('<div class="infoWindow"><h5>' + place.name + '</h5><p>' + place.formatted_address + '</p><p>' + '<button id="view-more">' + 'View More' + '</button>' + '</div>');
+            infowindow.setContent('<div class="infoWindow"><h5>' + place.name + '</h5><p>' + place.formatted_address + '</p><p>' + '<button id="view-more">' + 'View More >>' + '</button>' + '</div>');
         }
         infowindow.open(map, this);
     });
