@@ -19,9 +19,7 @@ body {
     background-color: #f5f5f5;
 }
 
-#no-margin {
-    margin-top: 0px;
-}
+/* Home Page */
 
 #welcome-message {
     padding: 40px;
@@ -31,8 +29,14 @@ body {
     margin-bottom: 20px;
 }
 
+/* Map */
+
 #map {
     height: 100%;
     width: 100%;
     z-index: 1; 
+}
+
+#no-margin {
+    margin-top: 0px;
 }
