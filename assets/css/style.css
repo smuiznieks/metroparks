@@ -8,17 +8,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar {
-    height: 4em;
-}
-
 .navbar, .footer, .navbar-brand, .nav-link {
     background-color: #1d5c1e;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.active, .navbar-toggler-icon, .navbar-brand:hover, .nav-link:hover {
+.navbar-brand:hover, .nav-link:hover {
     color: #6ab03d;
 }
 
@@ -70,8 +66,7 @@ h5 {
     width: 300px;
 }
 
-.btn, #view-more {
-    border: .8px solid #6ab03d;
+#view-more {
     background-color: #6ab03d;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -79,10 +74,4 @@ h5 {
     border-radius: 3px;
     width: 150px;
     padding: 14px 0px;
-}
-
-.btn:hover {
-    border: .8px solid #6ab03d;
-    color: #6ab03d;
-    background-color: #FFFFFF;
 }
