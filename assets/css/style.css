@@ -5,6 +5,17 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar, .footer, .navbar-brand, .nav-link {
+    background-color: #1d5c1e;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #6ab03d;
 }
 
 .content {
@@ -16,8 +27,20 @@ body {
     flex-shrink: 0;
     height: 60px; /* Set the fixed height of the footer here */
     line-height: 60px; /* Vertically center the text there */
-    background-color: #f5f5f5;
 }
+
+h1 {
+    color: #1d5c1e;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h5 {
+    color: #1d5c1e;
+    text-transform: uppercase;
+}
+
+/* Home Page */
 
 #welcome-message {
     padding: 40px;
@@ -25,4 +48,30 @@ body {
 
 .carousel {
     margin-bottom: 20px;
+}
+
+/* Map */
+
+#map {
+    height: 100%;
+    width: 100%;
+    z-index: 1; 
+}
+
+#no-margin {
+    margin-top: 0px;
+}
+
+.infoWindow {
+    width: 300px;
+}
+
+#view-more {
+    background-color: #6ab03d;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    padding: 14px 0px;
 }
