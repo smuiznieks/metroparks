@@ -7,47 +7,99 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Bootstrap CSS -->
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-		<!-- CSS -->
+		<!-- FontAwesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <!-- CSS -->
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/gallery.css">
         <!-- Font similar to Metropark's Myriad Pro -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	</head>
 	<body>
-        <div class="content">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">Project Name Here</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="map.html">Map</a>
-                    </li>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">Project Name Here</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <i class="fas fa-chevron-right"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="gallery.html">Gallery <i class="fas fa-chevron-right"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Map <i class="fas fa-chevron-right"></i></a>
+                </li>
+            </div>
+        </nav>
+        <div id="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="http://via.placeholder.com/400x200" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Image Title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">View on Map >></a>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-
-            <div class="container">
-                
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="http://via.placeholder.com/400x200" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Image Title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">View on Map >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="http://via.placeholder.com/400x200" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Image Title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">View on Map >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="http://via.placeholder.com/400x200" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Image Title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">View on Map >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="http://via.placeholder.com/400x200" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Image Title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">View on Map >></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <footer class="footer">
+        <footer class="gallery-footer">
             <div class="container">
                 <span>Place sticky footer content here.</span>
             </div>
         </footer>
-		
+        
 		<!-- JavaScript -->
 		<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-		<script src="./assets/js/app.js"></script>
+        <script src="./assets/js/gallery.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEIda_GShHCp8O0f38w2wcdcftvw2WU-s&callback=initMap&libraries=places"></script>
 	</body>
 </html>
