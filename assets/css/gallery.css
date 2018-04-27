@@ -1,4 +1,7 @@
 /* Gallery */
+.fas{
+  color: #1d5c1e;
+}
 .card {
     margin: 1em;
 }
@@ -20,5 +23,5 @@
 #map {
     min-height: 400px;
     width: 100%;
-    z-index: 1; 
+    z-index: 1;
 }
